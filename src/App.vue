@@ -2,18 +2,21 @@
   <div id="app">
     <CobaHeader/>
     <CobaBody />
+    <CobaLogin/>
   </div>
 </template>
 
 <script>
 import CobaHeader from './components/CobaHeader.vue'
 import CobaBody from './components/CobaBody.vue'
+import CobaLogin from './components/CobaLogin'
 
 export default {
   name: 'app',
   components: {
     CobaHeader,
-    CobaBody
+    CobaBody,
+    CobaLogin
   }
 }
 </script>
