@@ -49,7 +49,7 @@
     </b-card>
   </div>
 </template>
-  dddd
+  
 <script>
   export default {
     data() {
